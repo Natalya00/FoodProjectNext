@@ -4,7 +4,7 @@
 
 ## Ссылки
 
-- **Деплой**: https://foodproject.vercel.app
+- **Деплой**: https://foodproject-rouge.vercel.app/
 
 - **Исходный репозиторий**: https://github.com/Natalya00/FoodProject
 

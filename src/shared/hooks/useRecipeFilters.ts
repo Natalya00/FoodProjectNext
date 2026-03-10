@@ -54,7 +54,7 @@ export const useRecipeFilters = (): [
       }
     }
 
-    router.push(`${pathname}?${newParams.toString()}`);
+    router.push(`${pathname}?${newParams.toString()}`, { scroll: false });
   }, [searchParams, pathname, router]);
 
   return [{ search, categories, page }, setFilters];

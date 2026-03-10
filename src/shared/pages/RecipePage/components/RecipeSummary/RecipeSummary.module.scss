@@ -1,0 +1,36 @@
+@import '@/shared/styles/variables.scss';
+@import '@/shared/styles/breakpoints.scss';
+
+.section {
+  width: 100%;
+  max-width: 1240px;
+  box-sizing: border-box;
+  background-color: $color-page-bg-dark;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 48px;
+
+  @include tablet {
+    padding: 28px;
+  }
+
+  @include wide {
+    width: 1240px;
+    padding: 36px;
+  }
+}
+
+.content {
+  font-size: 16px;
+  line-height: 1.6;
+  color: $color-primary;
+
+  b {
+    font-weight: 700;
+  }
+
+  a {
+    color: $color-primary;
+    text-decoration: underline;
+  }
+}
